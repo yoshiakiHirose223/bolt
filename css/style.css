@@ -23,10 +23,10 @@
   padding: 14px 12px;
   box-sizing: border-box;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .button_state_hover:hover {
-  transition-duration: 0.3s;
   color: #333;
 }
 
@@ -103,7 +103,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0;
+}
+
+.can-do-inner img {
+  vertical-align: bottom;
 }
 
 .can-do-inner__box {
@@ -136,12 +139,12 @@
 }
 
 .work-inner__main-list li a {
-  transition-duration: .3s;
+  display: inline-block;
+  transition: 0.3s;
   opacity: 0.7;
 }
 
 .work-inner__main-list li a:hover {
-  transition-duration: .3s;
   opacity: 1;
 }
 
@@ -159,7 +162,6 @@
   margin-bottom: 0;
 }
 
-
 .work-inner__footer {
   max-width: 800px;
   margin: 0 auto;
@@ -176,6 +178,7 @@
   width: 100px;
   margin-left: 90px;
   vertical-align: middle;
+  display: inline-block;
 }
 
 .skills {
@@ -219,11 +222,10 @@
 }
 
 .nav-inner__list li {
-  transition-duration: .3s;
+  transition: 0.3s;
 }
 
 .nav-inner__list li:hover {
-  transition-duration: .3s;
   background-color: #fff;
 }
 
@@ -255,7 +257,8 @@
   }
 
   .can-do-inner {
-    display: unset;
+    /* display: unset; */
+    flex-flow: column;
   }
 
   .can-do-inner__box {
