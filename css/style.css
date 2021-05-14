@@ -68,8 +68,13 @@ img {
   color: #4e4e4e;
 }
 
+
 .header-inner__humberger {
   display: none;
+  color:  #4e4e4e;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .main {
@@ -252,14 +257,11 @@ img {
   }
 
   .work-inner__main-list {
-    /* max-width: 599pxにすることで、画像が2カラムになるのを防ぐ */
-    max-width: 599px;
-    margin-right: auto;
-    margin-left: auto;
     text-align: center;
   }
 
   .work-inner__main-list li {
+    display: block;
     margin: 0;
   }
 
@@ -295,15 +297,12 @@ img {
 }
 
 @media screen and (max-width:767px) {
-  .header-inner a {
+  .header-inner__contact {
     display: none;
   }
 
   .header-inner__humberger {
     display: inline-block;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
   }
 
   .theme {
@@ -315,7 +314,7 @@ img {
   }
 
   .nav {
-    padding: 50px 15px;
+    padding: 50px 0;
   }
 
   .nav-inner__list li {
