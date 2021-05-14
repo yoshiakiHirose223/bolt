@@ -256,6 +256,10 @@ img {
 }
 /* @mediaクエリ 大→小 */
 @media screen and (max-width:1199px) {
+  .inner {
+    width: 97%;
+  }
+
   .can-do {
     padding-bottom: 25px;
   }
@@ -308,10 +312,7 @@ img {
 }
 
 @media screen and (max-width:767px) {
-  .inner {
-    width: 97%;
-  }
-
+  
   .header-inner__contact {
     display: none;
   }
