@@ -313,7 +313,6 @@ img {
   }
 
   .header-inner__humberger {
-    /* display: inline-block; */
     display: flex;
   }
 
