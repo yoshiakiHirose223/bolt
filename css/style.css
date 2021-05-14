@@ -294,7 +294,8 @@ img {
   }
 
   .work-inner__footer p {
-    max-width: 100%;
+    max-width: initial;
+    width: 100%;
   }
 
   .work-inner__footer a {
@@ -315,7 +316,7 @@ img {
 }
 
 @media screen and (max-width:767px) {
-  
+
   .header-inner__contact {
     display: none;
   }
