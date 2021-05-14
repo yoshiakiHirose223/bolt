@@ -90,7 +90,6 @@ img {
   margin-top: 0;
 }
 
-
 .main {
   padding-top: 78px;
 }
@@ -309,6 +308,10 @@ img {
 }
 
 @media screen and (max-width:767px) {
+  .inner {
+    width: 97%;
+  }
+
   .header-inner__contact {
     display: none;
   }
@@ -341,5 +344,4 @@ img {
   .footer-inner {
     margin-right: 50px;
   }
-
 }
